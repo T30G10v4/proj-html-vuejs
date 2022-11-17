@@ -1,0 +1,28 @@
+@use "./partials/variables" as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+.cta {
+
+    display: inline-block;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    color: inherit;
+    font-size: 2rem;
+
+    &.primary {
+
+        background-color: $colorPrimary;
+
+    }
+
+}
+
+.primary-color {
+
+    color: $colorPrimary;
+
+}
+
+

@@ -494,6 +494,14 @@ html {
 
 }
 
+.position-center-y {
+
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+
+}
+
 /*---------------------------------------------------------------------------------------------------------------TYPOGRAPHY------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .text-align-start {
@@ -514,8 +522,6 @@ html {
 
 }
 
-
-
 .font-size-10 {
 
   font-size: 1rem;
@@ -532,12 +538,23 @@ html {
 
   font-size: 2.5rem;
 
-
 }
 
 .font-size-30 {
 
   font-size: 3rem;
+
+}
+
+.font-size-40 {
+
+  font-size: 4rem;
+
+}
+
+.font-size-50 {
+
+  font-size: 5rem;
 
 }
 
@@ -673,6 +690,30 @@ html {
 .m-rgt-4em {
 
   margin-right: 4em;
+
+}
+
+.m-btm-1rem {
+
+  margin-bottom: 1rem;
+
+}
+
+.m-top-1rem {
+
+  margin-top: 1rem;
+
+}
+
+.m-btm-2rem {
+
+  margin-bottom: 2rem;
+
+}
+
+.m-top-2rem {
+
+  margin-top: 2rem;
 
 }
 
@@ -1041,6 +1082,12 @@ html {
 
 }
 
+.col-55 {
+
+  width: 55%;
+
+}
+
 .col-60 {
 
   width: 60%;
@@ -1147,9 +1194,30 @@ html {
 
 /*-------------------------------------------------------------------------------------CONTAINER PARTS-------------------------------------------------------------------------------------------------------*/
 
-.container {
+.container-sm {
 
-  max-width: 1170px;
+  max-width: 576px;
+  margin: 0 auto;
+
+}
+
+.container-md {
+
+  max-width: 768px;
+  margin: 0 auto;
+
+}
+
+.container-lg {
+
+  max-width: 992px;
+  margin: 0 auto;
+
+}
+
+.container-xl {
+
+  max-width: 1200px;
   margin: 0 auto;
 
 }

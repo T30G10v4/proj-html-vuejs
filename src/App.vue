@@ -1,11 +1,22 @@
 <script>
 
+import AppJumbotron from "./components/AppJumbotron.vue";
+
+export default {
+
+  components: {
+
+    AppJumbotron
+
+  }
+
+}
+
 </script>
 
 <template>
 
-  <h1>PROVA</h1>
-  <h2>PROVAS</h2>
+  <AppJumbotron />
 
 </template>
 
@@ -15,10 +26,9 @@
 @use "./styles/partials/variables" as *;
 @use "./styles/general.scss" as *;
 
-body {
+html {
 
-  background-color: $backgroundColor;
-  
+  font-family: 'Montserrat', sans-serif;
 
 }
 
