@@ -2,13 +2,15 @@
 
 import AppJumbotron from "./components/AppJumbotron.vue";
 import AppWelcome from "./components/AppWelcome.vue";
+import AppMeet from "./components/AppMeet.vue";
 
 export default {
 
   components: {
 
     AppJumbotron,
-    AppWelcome
+    AppWelcome,
+    AppMeet
 
   }
 
@@ -20,6 +22,7 @@ export default {
 
   <AppJumbotron />
   <AppWelcome />
+  <AppMeet />
 
 </template>
 
