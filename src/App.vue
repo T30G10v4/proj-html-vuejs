@@ -1,12 +1,14 @@
 <script>
 
 import AppJumbotron from "./components/AppJumbotron.vue";
+import AppWelcome from "./components/AppWelcome.vue";
 
 export default {
 
   components: {
 
-    AppJumbotron
+    AppJumbotron,
+    AppWelcome
 
   }
 
@@ -17,6 +19,7 @@ export default {
 <template>
 
   <AppJumbotron />
+  <AppWelcome />
 
 </template>
 

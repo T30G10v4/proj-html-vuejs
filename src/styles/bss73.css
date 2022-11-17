@@ -528,6 +528,12 @@ html {
 
 }
 
+.font-size-15 {
+
+  font-size: 1.5rem;
+
+}
+
 .font-size-20 {
 
   font-size: 2rem;
@@ -893,6 +899,18 @@ html {
 .p-2rem {
 
   padding: 2rem;
+
+}
+
+.p-top-btm-4rem {
+
+  padding: 4rem 0;
+
+}
+
+.p-top-btm-8rem {
+
+  padding: 8rem 0;
 
 }
 
