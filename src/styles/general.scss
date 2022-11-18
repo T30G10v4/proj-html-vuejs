@@ -33,3 +33,64 @@ section {
 }
 
 
+.social {
+
+    font-size: 2rem;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    margin-right: 1rem;
+
+    &.fa-facebook-f {
+
+        background-color: $fbColor;
+
+    }
+
+    &.fa-twitter {
+
+        background-color: $twColor;
+
+    }
+
+    &.fa-instagram {
+
+        background-color: $igColor;
+
+    }
+
+}
+
+
+.underline {
+
+    
+    &::after {
+
+        content: "";
+        display: block;
+        height: 2px;
+
+    }
+
+    
+    &.center-primary::after {
+
+        margin: 2rem auto;
+        width: 33%;
+        background-color: $textPrimary;
+
+    }
+
+    
+    &.center-white::after {
+
+        margin: 2rem auto;
+        width: 33%;
+        background-color: $textSecondary;
+
+    }
+}
