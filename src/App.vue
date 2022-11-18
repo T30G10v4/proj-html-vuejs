@@ -5,6 +5,8 @@ import AppWelcome from "./components/AppWelcome.vue";
 import AppMeet from "./components/AppMeet.vue";
 import AppServices from "./components/AppServices.vue";
 import AppTour from "./components/AppTour.vue";
+import AppMore from "./components/AppMore.vue";
+import AppAppointment from "./components/AppAppointment.vue";
 
 export default {
 
@@ -14,7 +16,9 @@ export default {
     AppWelcome,
     AppMeet,
     AppServices,
-    AppTour
+    AppTour,
+    AppMore,
+    AppAppointment
 
   }
 
@@ -29,6 +33,8 @@ export default {
   <AppMeet />
   <AppServices />
   <AppTour />
+  <AppMore />
+  <AppAppointment />
 
 </template>
 
