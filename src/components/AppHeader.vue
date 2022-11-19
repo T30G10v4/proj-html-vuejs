@@ -76,8 +76,10 @@ header {
 
     width: 100%;
 
-    padding: 4rem 8rem;
+    padding: 2rem 4rem;
     font-size: 2rem;
+
+    color: $textSecondary;
 
     ul {
 

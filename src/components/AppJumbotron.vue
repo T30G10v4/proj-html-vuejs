@@ -1,16 +1,9 @@
 <script>
 
-import AppHeader from './AppHeader.vue';
 
 export default {
 
     name: "AppJumbotron",
-
-    components: {
-
-      AppHeader
-
-}
 
 }
 
@@ -20,7 +13,7 @@ export default {
 
   <section id="jumbotron">
 
-    <AppHeader />
+    
 
     <div class="container-xl">
 
