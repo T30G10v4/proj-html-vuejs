@@ -12,7 +12,7 @@ export default {
 
     <section id="slider">
 
-        <div class="container-xl">
+        <div class="container-xl overflow-hidden">
             
            <div class="cards flex-row-spc-btwn-center">
                 <div class="card">
@@ -44,6 +44,51 @@ export default {
     // background-position: top;
     // background-repeat: no-repeat;
     background-size: cover;
+    
+
+    .cards {
+
+        position: relative;
+        animation-name: slide-left;
+        animation-duration: 60s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+
+
+
+    }
+
+    @keyframes slide-left {
+
+        0% {
+
+            opacity: 1;
+            left: 100%;
+            
+        }
+
+        98% {
+
+            opacity: 1;
+            left: -33%;
+
+
+        }
+
+        99% {
+
+            opacity: 0;
+
+        }
+
+        100% {
+
+            left:100%;
+
+        }
+
+    }
+
 
     
 }
