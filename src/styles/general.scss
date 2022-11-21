@@ -24,6 +24,13 @@
         border: 2px solid white;
 
     }
+
+    &.third {
+
+        border:2px solid $textPrimary;
+
+    }
+
 }
 
 .primary-color {
@@ -75,6 +82,12 @@ section {
 
     }
 
+    &.fa-youtube {
+
+        background-color: #cd201f;
+
+    }
+
 }
 
 
@@ -106,4 +119,38 @@ section {
         background-color: $textSecondary;
 
     }
+    
+    &.all-primary::after {
+
+        margin: 2rem 0;
+        width: 100%;
+        background-color: $textPrimary;
+
+    }
+
+    &.start-blue::after {
+
+        margin: 2rem 0;
+        width: 10%;
+        background-color: $colorPrimary;
+
+    }
+
+}
+
+.department::before {
+
+    content: ">";
+    color: $textSecondary;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: $colorPrimary;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 2rem;
+
+
 }

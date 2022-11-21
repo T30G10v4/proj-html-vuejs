@@ -3,39 +3,9 @@
 export default {
 
     name: "AppHeader",
-    data() {
+    props: {
 
-        return {
-
-            links: [
-                {
-                    name: "HOME",
-                    href: "#",
-                    status: "active"
-                },
-                {
-                    name: "ABOUT",
-                    href: "#",
-                    status: ""
-                },
-                {
-                    name: "DEPARTMENTS",
-                    href: "#",
-                    status: ""
-                },
-                {
-                    name: "ARTICLES",
-                    href: "#",
-                    status: ""
-                },
-                {
-                    name: "MAKE APPOINTMENT",
-                    href: "#",
-                    status: "cta primary"
-                },
-            ]
-
-        }
+        links: Object,
 
     }
 

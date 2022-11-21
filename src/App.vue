@@ -73,7 +73,7 @@ export default {
 
 <template>
 
-  <AppHeader />  
+  <AppHeader :links="links"/>  
   <AppJumbotron />
   <AppWelcome />
   <AppMeet />
@@ -82,7 +82,7 @@ export default {
   <AppMore />
   <AppAppointment />
   <AppSlider />
-  <AppFooter />
+  <AppFooter :medicalDepartments="medicalDepartments"/>
 
 </template>
 

@@ -27,7 +27,7 @@ export default {
                         <h3 class="font-size-20">JON SNOW</h3>
                         <h4 class="font-size-20">Anestestheologist</h4>
                         <p class="font-size-20">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis quibusdam facere perferendis doloremque? Omnis aliquid recusandae illum, praesentium doloremque ad dolore quidem est obcaecati, magni maiores, laudantium voluptatum voluptate nostrum!</p>
-                        <i class="social fa-brands fa-facebook-f"></i><i class="social fa-brands fa-twitter"></i><i class="social fa-brands fa-instagram"></i>
+                        <a href="#"><i class="social fa-brands fa-facebook-f"></i></a><a href="#"><i class="social fa-brands fa-twitter"></i></a><a href="#"><i class="social fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
                 <div class="card col-30">
@@ -36,7 +36,7 @@ export default {
                         <h3 class="font-size-20">TONY STARK</h3>
                         <h4 class="font-size-20">Anestestheologist</h4>
                         <p class="font-size-20">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis quibusdam facere perferendis doloremque? Omnis aliquid recusandae illum, praesentium doloremque ad dolore quidem est obcaecati, magni maiores, laudantium voluptatum voluptate nostrum!</p>
-                        <i class="social fa-brands fa-facebook-f"></i><i class="social fa-brands fa-twitter"></i><i class="social fa-brands fa-instagram"></i>
+                        <a href="#"><i class="social fa-brands fa-facebook-f"></i></a><a href="#"><i class="social fa-brands fa-twitter"></i></a><a href="#"><i class="social fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
                 <div class="card col-30">
@@ -45,7 +45,7 @@ export default {
                         <h3 class="font-size-20">ARYA STARK</h3>
                         <h4 class="font-size-20">Anestestheologist</h4>
                         <p class="font-size-20">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis quibusdam facere perferendis doloremque? Omnis aliquid recusandae illum, praesentium doloremque ad dolore quidem est obcaecati, magni maiores, laudantium voluptatum voluptate nostrum!</p>
-                        <i class="social fa-brands fa-facebook-f"></i><i class="social fa-brands fa-twitter"></i><i class="social fa-brands fa-instagram"></i>
+                        <a href="#"><i class="social fa-brands fa-facebook-f"></i></a><a href="#"><i class="social fa-brands fa-twitter"></i></a><a href="#"><i class="social fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
