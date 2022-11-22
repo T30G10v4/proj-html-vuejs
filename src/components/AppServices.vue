@@ -94,4 +94,10 @@ export default {
 
 }
 
+.card {
+
+    margin-top: 3rem;
+
+}
+
 </style>

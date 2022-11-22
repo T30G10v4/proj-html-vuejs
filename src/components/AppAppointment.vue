@@ -68,6 +68,7 @@ export default {
         font-size: 2rem;
         background: transparent;
         border: 1px solid white;
+        margin-top: 3rem;
 
     }
 
@@ -77,7 +78,7 @@ export default {
         display: block;
         text-align: center;
         color: $textSecondary;
-        
+        margin-top: 3rem;
 
     }
 }

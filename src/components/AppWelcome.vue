@@ -16,7 +16,7 @@ export default {
             
             <h2 class="font-size-50">Welcome to Avada Health</h2>
 
-            <p class="font-size-20">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt distinctio, 
+            <p class="font-size-20 m-top-2rem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt distinctio, 
                 eaque, ad ratione recusandae veniam nostrum vero ut impedit inventore maiores amet facere nisi 
                 atque dignissimos, deleniti totam rem at?
             </p>

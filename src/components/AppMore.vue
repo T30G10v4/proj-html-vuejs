@@ -79,5 +79,11 @@ export default {
 
     }
 
+    .cta {
+
+        margin-top: 2rem;
+
+    }
+
 }
 </style>
