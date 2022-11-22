@@ -78,8 +78,22 @@ export default {
         li {
 
             margin: 1rem 0;
+            font-size: 2rem;
+
+            a {
+
+                text-decoration: none;
+                color: inherit;
+
+            }
 
         }
+
+    }
+
+    .cta {
+
+        margin-top: 3rem;
 
     }
 
